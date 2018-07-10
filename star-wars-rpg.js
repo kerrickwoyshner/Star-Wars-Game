@@ -31,6 +31,13 @@ $(document).ready(function () {
       attack: 7,
       imageUrl: "./images/darth-maul.jpg",
       enemyAttackBack: 25
+    },
+    "Storm Trooper": {
+      name: "Storm Trooper",
+      health: 100,
+      attack: 5,
+      imageUrl: "./images/star_wars_stormtroopers_suit.jpg",
+      enemyAttackBack: 4
     }
   };
   // Will be populated when the player selects a character.
