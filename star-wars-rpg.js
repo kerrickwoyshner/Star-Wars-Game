@@ -1,5 +1,6 @@
 // Execute this code when the DOM has fully loaded.
 $(document).ready(function () {
+
   // VARIABLE DECLARATION
   // ===================================================================
   // Creating an object to hold our characters.
@@ -50,6 +51,7 @@ $(document).ready(function () {
   var turnCounter = 1;
   // Tracks number of defeated opponents.
   var killCount = 0;
+
   // FUNCTIONS
   // ===================================================================
   // This function will render a character card to the page.
@@ -110,6 +112,7 @@ $(document).ready(function () {
     gameMessage.text("");
   };
   // ===================================================================
+
   // On click event for selecting our character.
   $("#characters-section").on("click", ".character", function () {
     // Saving the clicked character's name.
